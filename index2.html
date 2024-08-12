@@ -1,0 +1,189 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #f8b400;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    nav {
+        background-color: #333;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0;
+    }
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: inline-block;
+    }
+    nav ul li a:hover {
+        background-color: #575757;
+    }
+    .container {
+        padding: 2em;
+    }
+    .recipe-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .recipe-item {
+        border: 1px solid #ddd;
+        padding: 1em;
+        border-radius: 5px;
+    }
+    .recipe-item img {
+        max-width: 100%;
+        height: auto;
+    }
+    footer {
+        background-color: #363030;
+        color: #fff;
+        text-align: buttom ;
+        padding: auto;
+        position: relative;
+        width: auto;
+        length: auto;
+        bottom: 0%;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .contact-form label {
+        display: block;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 0.5em;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+    <!--Header Section -->
+<header>
+<h1>My recipe Book</h1>
+<p>Your Guid to Delicious and easy recipes</p>
+
+<header\>
+
+<!-- Navigation Bar -->
+ 
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="https://norecipes.com/best-spaghetti-recipe/">Recipes</a></li>
+<li><a href="https://www.britannica.com/topic/spaghetti">About</a></li>
+<li><a href="https://www.gmail.com">Contact me</a></li>
+
+</ul>
+</nav>
+
+<!-- Home Secotion-->
+ <section id="Home" class="container">
+    <h2> Welcome to my Recipe Book!</h2>
+    <img src="https://www.archanaskitchen.com/images/archanaskitchen/10-Brands/DelMonte-KidsRecipes/Spaghetti_Pasta_Recipe_In_Creamy_Tomato_Sauce_-_Kids_Recipes_Made_With_Del_Monte-3.jpg" style="height: 300px; width: 400px" alt="diliciouse Dish">
+    
+
+</section>  
+
+<!-- Recipes section-->
+<section id="recipes" class="containter"></section>
+<h1> Featured Recipes</h1>
+
+<div class="recipe-list">
+    <div class="recipe-item">
+     <h3><a href="https://www.recipetineats.com/carbonara/">Spaghetti Carbonara</a></h3>
+     <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+</div>
+
+<div class="recipe-item">
+    <h3><a href="https://www.allrecipes.com/recipe/46822/indian-chicken-curry-ii/">Chicken Curry</a></h3>
+    <p>Hearty and flavorful chicken curry with a blend of spices and herbs.</p>
+</div>
+
+<div class="recipe-item">
+    <h3><a href="https://sallysbakingaddiction.com/triple-chocolate-layer-cake/">Chocolate Cake</a></h3>
+    <p>Rich and moist chocolate cake topped with creamy chocolate frosting.</p>
+</div>
+
+
+</section>
+
+<!-- Video Section -->
+
+
+<section id="video" class="container">
+    <h2>Cooking Tutorial</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yhhXG4jAHQw" frameborder="5" allow="accelerometer; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<!-- About Section -->
+<section id="about" class="container">
+
+    <a href="https://www.britannica.com/topic/spaghetti">
+
+        <button> About US </button> </a>
+
+
+    <p> Welcome to My Recipe Book! Here, we share a collection of tried-and-tested recipes that are easy to follow and delicious. Whether you're a seasoned cook or just starting, you'll find something to suit your taste and skill level.</p>
+
+</section>  
+  <!-- Contact Section -->
+
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+ 
+    <form class="contact-form" action="submit_form.php" method="post">
+        <label for="name">Your Name:</label>
+
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email:</label>
+
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Send</button>
+    
+   
+
+    
+
+    </form>
+</section>
+
+<i class="fa fa-space-shuttle" aria-hidden="true"></i>
+
+
+  <!-- Footer Section -->
+
+<!--footer-->
+<footer>
+
+    <p class="right">i would love to hear from you.<br />
+        <span class="small">Done by mogo</span></p>
+<span> <i class="small">love </i></span>
+</footer>
+
+
